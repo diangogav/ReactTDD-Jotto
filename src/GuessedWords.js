@@ -6,7 +6,7 @@ const GuessedWords = props => {
   if (props.guessedWords.length === 0) {
     content = (
       <div data-test="guess-instructions">
-        <span>Instructions</span>
+        <span>Instructions...</span>
       </div>
     );
   } else {
